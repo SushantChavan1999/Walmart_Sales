@@ -3,7 +3,7 @@
 ## Project Overview
 
 ![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
-![Project Pipeline](https://github.com/SushantChavan1999/Walmart_Sales/blob/main/Workflow Diagram for Walmart Sales Analysis.jpg)
+![Project Pipeline](https://github.com/SushantChavan1999/Walmart_Sales/blob/main/Workflow_Diagram_Walmart_Sales_Analysis.png)
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, MySQL for advanced querying, and Jupyter Notebook as the primary development environment. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
 
