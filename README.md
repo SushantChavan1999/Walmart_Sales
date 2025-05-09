@@ -64,9 +64,9 @@ This project presents an end-to-end data analysis solution using Walmart sales d
 ### 10. Power BI: Data Visualization and Reporting
    - **Connect to MySQL:** Use Power BI’s MySQL connector to import the processed data from the database.
    - **Dashboard Creation:** Design interactive and informative dashboards, including visualizations such as:
-	- Sales and Profit Overview
-	- Sales Trend Analysis
-	- Product & Category Performance
+     - Sales and Profit Overview
+     - Sales Trend Analysis
+     - Product & Category Performance
    - **Business Insights:** Display key metrics and insights in a visually appealing way to assist decision-making.
 
 ### 11. Project Publishing and Documentation
