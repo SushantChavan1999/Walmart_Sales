@@ -1,18 +1,18 @@
-# Walmart Data Analysis: End-to-End SQL + Python Project
+# Walmart Sales Data Analysis: End-to-End with Kaggle API, Python, SQL, and Power BI 
 
 ## Project Overview
 
 ![Project Pipeline](https://github.com/SushantChavan1999/Walmart_Sales/blob/main/Workflow_Diagram_Walmart_Sales_Analysis.png)
 
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, MySQL for advanced querying, and Jupyter Notebook as the primary development environment. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project presents an end-to-end data analysis solution using Walmart sales data. The dataset was acquired through the Kaggle API, followed by data cleaning and exploration in Python using Jupyter Notebook. The processed data was stored in MySQL for advanced querying. Lastly, Power BI was used to create interactive dashboards to visualize key business insights.
 
 ---
 
 ## Project Steps
 
 ### 1. Set Up the Environment
-   - **Tools Used**: Jupyter Notebook, Python, MySQL
-   - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
+   - **Tools Used**: Jupyter Notebook, Python, MySQL, Power BI 
+   - **Goal**: Organize the project folders for smooth development and data handling, ensuring efficient workflow from data acquisition to analysis and visualization.
 
 ### 2. Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
@@ -28,7 +28,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 4. Install Required Libraries and Load Data
    - **Libraries**: Install necessary Python libraries using:
      ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python
+     pip install kaggle pandas numpy pymysql sqlalchemy mysql-connector-python
      ```
    - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
@@ -61,14 +61,23 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Profit margin analysis by branch and category.
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
-### 10. Project Publishing and Documentation
-   - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
-   - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
-     - The `README.md` file (this document).
-     - Jupyter Notebooks.
-     - SQL query scripts.
-     - Data files.
+### 10. Power BI: Data Visualization and Reporting
+   - **Connect to MySQL:** Use Power BI’s MySQL connector to import the processed data from the database.
+   - **Dashboard Creation:** Design interactive and informative dashboards, including visualizations such as:
+	- Sales and Profit Overview
+	- Sales Trend Analysis
+	- Product & Category Performance
+   - **Business Insights:** Display key metrics and insights in a visually appealing way to assist decision-making.
 
+### 11. Project Publishing and Documentation
+   - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
+   - **Project Publishing**: Upload the finalized project to GitHub including:
+    	- The `README.md` file (this document).
+     	- Jupyter Notebooks file.
+     	- SQL query scripts.
+	- Power BI file.
+     	- Data files.
+	
 ---
 
 ## Requirements
@@ -76,8 +85,10 @@ This project is an end-to-end data analysis solution designed to extract critica
 - **Python 3.8+**
 - **SQL Databases**: MySQL
 - **Python Libraries**:
-  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`
+  - `pandas`, `numpy`, `pymysql`, `sqlalchemy`, `mysql-connector-python`
 - **Kaggle API Key** (for data downloading)
+- **Power BI** (for creating interactive dashboards)
+- **Jupyter Notebook** (for development and analysis)
 
 ## Getting Started
 
@@ -97,8 +108,9 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ```plaintext
 |-- data/                     # Raw data and transformed data
-|-- sql_queries/              # SQL scripts for analysis and queries
 |-- notebooks/                # Jupyter notebooks for Python analysis
+|-- sql_queries/              # SQL scripts for analysis and queries
+|-- dashboards/               # Power BI for visualization
 |-- README.md                 # Project documentation
 |-- requirements.txt          # List of required Python libraries
 |-- main.py                   # Main script for loading, cleaning, and processing data
@@ -115,7 +127,6 @@ This section will include your analysis findings:
 ## Future Enhancements
 
 Possible extensions to this project:
-- Integration with a dashboard tool (Power BI) for interactive visualization.
 - Additional data sources to enhance analysis depth.
 - Automation of the data pipeline for real-time data ingestion and analysis.
 
